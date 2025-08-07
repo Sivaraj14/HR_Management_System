@@ -1,11 +1,15 @@
 💼 Project Title: HR Management System
+
 📌 Project Description
+
 The HR Management System is a fully-featured, web-based application designed to digitalize and automate key Human Resource (HR) functions within an organization. It provides secure, role-based access to a centralized platform where both managers and employees can efficiently perform and manage their respective HR-related tasks.
 
 Built with a React.js frontend and a Node.js + Express.js backend, the system supports user authentication, role-based dashboards, and seamless interaction with server APIs for data management. It enhances workflow transparency, operational efficiency, and employee engagement through an intuitive user interface and robust backend services.
 
 🧩 Key Modules and Features
+
 👤 Employee Module
+
 ✅ Secure Login – Authenticated login with employee credentials.
 
 📅 Leave Request – Submit leave applications with type, date range, and reason.
@@ -21,6 +25,7 @@ Built with a React.js frontend and a Node.js + Express.js backend, the system su
 🚪 Logout – Securely log out from the system.
 
 👨‍💼 Manager Module
+
 ✅ Secure Login – Authenticated login with manager credentials.
 
 📤 Leave Approval – Approve or reject leave requests with comments.
@@ -38,6 +43,7 @@ Built with a React.js frontend and a Node.js + Express.js backend, the system su
 🚪 Logout – Securely log out from the system.
 
 🔒 Authentication & Authorization
+
 Login System: Both employees and managers log in using their credentials.
 
 Role-Based Access Control (RBAC):
@@ -51,6 +57,7 @@ Protected Routes: Frontend routes and backend APIs are protected to prevent unau
 Session Management: Users remain logged in via local/session storage (or JWT if used).
 
 🧱 Technology Stack
+
 Frontend
 
 React.js (with functional components and hooks)
@@ -68,6 +75,7 @@ Middleware for routing, authentication, and data parsing (body-parser, cookie-pa
 MongoDB with Mongoose (if used) for database operations
 
 🧑‍💻 System Architecture
+
 Frontend & Backend Separation: Clean decoupling of client and server logic.
 
 RESTful API Communication: All frontend actions (login, leave request, salary credit) interact with Express APIs.
@@ -77,6 +85,7 @@ Role-based UI Rendering: Dashboards and components dynamically change based on l
 Data Persistence: All user data (tasks, leaves, salary, reviews) is stored and fetched from the database via APIs.
 
 📊 UI/UX and Usability
+
 Intuitive, user-friendly dashboards with real-time updates
 
 Interactive components with feedback on actions (e.g., task completion, leave approval)
@@ -86,6 +95,7 @@ Visual performance charts for better interpretation
 Dark mode & responsive UI (can be extended)
 
 🎯 Project Objectives
+
 Eliminate paperwork and manual errors in HR operations
 
 Provide transparency in employee-manager communication
@@ -95,6 +105,7 @@ Reduce processing time for salaries, leave, and performance reviews
 Enable centralized and secure access to HR services
 
 🔮 Future Enhancements
+
 Notifications: Real-time alerts (via WebSocket or polling) for task assignments or leave updates
 
 Advanced Reports: Exportable analytics for HR insights (PDF/CSV)
